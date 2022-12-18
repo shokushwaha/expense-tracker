@@ -31,6 +31,7 @@ function App() {
           setTransactions={setTransactions}
         />
       </div>
+
     </div>
   );
 }
