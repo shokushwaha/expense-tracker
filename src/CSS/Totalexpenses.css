@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+.box-title1 {
+
+    margin: 4px;
+    padding: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: smaller;
+    letter-spacing: 2px;
+    background-color: cyan;
+    border-bottom: 1px solid lightgray;
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.box-title2 {
+    margin: 4px;
+    padding: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: smaller;
+    letter-spacing: 2px;
+    background-color: greenyellow;
+    border-bottom: 1px solid lightgray;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    color: black;
+}
+
+.box-title3 {
+    margin: 4px;
+    padding: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: smaller;
+    letter-spacing: 2px;
+    background-color: lightcoral;
+    border-bottom: 1px solid lightgray;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    color: black;
+}
+
+.box-amount {
+    font-size: xx-large;
+    font-weight: 500;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+    overflow-x: scroll;
+}
+
+.box-amount::-webkit-scrollbar {
+    display: none;
+    width: 0;
+}
+
+.box-button1 {
+    font-size: smaller;
+    margin: 2px auto;
+    color: black;
+    border-radius: 3px;
+    background-color: greenyellow;
+    cursor: pointer;
+    width: 100px;
+
+    padding: 5px;
+}
+
+
+.box-button2 {
+    font-size: smaller;
+    margin: 2px auto;
+    color: black;
+    border-radius: 3px;
+    background-color: lightcoral;
+    cursor: pointer;
+    padding: 5px;
+    width: 100px;
+}
+
+.box-button1:hover {
+    width: 180px;
+    letter-spacing: 1px;
+    transition-duration: 0.2s;
+    box-shadow: 0px 0px 10px greenyellow;
+
+}
+
+
+.box-button2:hover {
+    width: 180px;
+    letter-spacing: 1px;
+    transition-duration: 0.2s;
+    box-shadow: 0px 0px 10 px lightcoral;
+
+}
+
+.TotalExpenses {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 3px;
+    background-color: turquoise;
+
+    box-shadow: 0px 0px 10px cyan;
+
+}
+
+.box {
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px grey;
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2833;
+    color: white;
+}
+
+.box-amount {
+    padding: 10px;
+    /* background-color: aqua; */
+}
+
+.box-amount1 {
+    padding: 10px;
+    /* background-color: greenyellow; */
+}
+
+.box-amount2 {
+    padding: 10px;
+    /* background-color: red; */
+}
+
+.box2 {
+    width: calc(50% - 20px);
+    background-color: #1f2833;
+}
+
+.s1 {
+    background-color: greenyellow;
+}
