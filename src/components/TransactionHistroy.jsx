@@ -25,7 +25,7 @@ export default function TransactionHistory({ transactions, setTransactions }) {
                             <div className="transaction-time">{transaction.time}</div>
                         </div>
                         <div className="THAmount1">
-                            <div className="THAmount">Rs. {Math.abs(transaction.amount)}</div>
+                            <div className="THAmount">INR {Math.abs(transaction.amount)}</div>
                             <div
                                 onClick={() => removeItem(transaction)}
                                 className="del-btn"
